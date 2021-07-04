@@ -44,3 +44,35 @@ h1{
 .mid_size img{
     width: 87%;
 }
+.description{
+    color: orange;
+}
+.bottom_position{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.bottom_size{
+    width: 40%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 10px 10px 40px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+#stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 100px;
+}
